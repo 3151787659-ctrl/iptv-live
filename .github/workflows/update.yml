@@ -1,0 +1,42 @@
+name: 每日更新IPTV直播源
+
+on:
+  schedule:
+    # 每天早上6点（北京时间 = UTC 22:00前一天）
+    - cron: '0 22 * * *'
+  workflow_dispatch:  # 允许手动触发
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write  # 允许提交更新
+    
+    steps:
+      - name: 检出仓库
+        uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          
+      - name: 设置Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+          
+      - name: 运行更新脚本
+        run: node update_iptv.js
+        env:
+          # 不需要Token，actions/checkout已处理认证
+          
+      - name: 提交并推送更新
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add cq_live.m3u
+          # 只在有变更时提交
+          git diff --quiet && git diff --staged --quiet || (
+            git commit -m "自动更新直播源 $(date +'%Y-%m-%d')"
+            git push
+          )
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
