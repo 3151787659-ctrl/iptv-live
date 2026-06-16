@@ -1,7 +1,8 @@
 #EXTM3U
-#PLAYLIST: 圆圆IPTV直播源 2026-06-16 21:13
-#AUTHOR: WorkBuddy Auto Build
-#DATE: 2026-06-16 21:13
+#PLAYLIST: 圆圆IPTV直播源 2026-06-16 21:35
+#AUTHOR: WorkBuddy Auto Build | 自动测试+去重+取最快
+#DATE: 2026-06-16 21:35
+#STATS: 90 channels, tested 90 total, 0 slow removed, 0 deduped
 
 #GROUP:央视频道
 #EXTINF:-1 tvg-name="CCTV10" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV10.png" group-title="央视频道" response-time="120ms",CCTV-10
@@ -62,7 +63,7 @@ http://222.223.41.27:8888/hls/8/index.m3u8
 http://39.165.39.49:85/tsfile/live/1009_1.m3u8?key=txiptv&playlive=1&authid=0
 
 #GROUP:央视台
-#EXTINF:-1 group-title="央视台" tvg-id="CCTV-9" tvg-logo="https://live.fanmingming.com/tv/CCTV9.png",CCTV-9 纪录
+#EXTINF:-1 group-title="央视台" tvg-id="CCTV-9" tvg-logo="https://live.fanmingming.com/tv/CCTV9.png" response-time="612ms",CCTV-9 纪录
 https://v4-e6b1c5baf4e240fe63adbf68dda23435.livehwc4.com/play.kankanlive.com/live/1698423397390920.m3u8?sub_m3u8=true&edge_slice=true&user_session_id=ecc789a8432f5526a52a407ff314237d
 
 #GROUP:央视频道
@@ -227,42 +228,42 @@ http://webcast.hkstv.tv/livestream/mutfysrq/playlist.m3u8
 http://120.198.95.220:9901/tsfile/live/1049_1.m3u8?key=txiptv&playlive=1&down=1
 
 #GROUP:
-#EXTINF:-1 tvg-id="CCTV1.cn@HD",CCTV-1 (1080p)
+#EXTINF:-1 tvg-id="CCTV1.cn@HD" response-time="360ms",CCTV-1 (1080p)
 http://69.30.245.50/live/cctv1.m3u8
 
 #GROUP:General
-#EXTINF:-1 tvg-id="CCTV1.cn@SD" tvg-logo="https://i.imgur.com/TpA3cUl.png" group-title="General",CCTV-1 (720p)
+#EXTINF:-1 tvg-id="CCTV1.cn@SD" tvg-logo="https://i.imgur.com/TpA3cUl.png" group-title="General" response-time="723ms",CCTV-1 (720p)
 http://74.91.26.218:82/live/cctv1hd.m3u8
 
 #GROUP:
-#EXTINF:-1 tvg-id="CCTV10.cn@SD",CCTV-10 (720p)
+#EXTINF:-1 tvg-id="CCTV10.cn@SD" response-time="720ms",CCTV-10 (720p)
 http://74.91.26.218:82/live/cctv10hd.m3u8
 
-#EXTINF:-1 tvg-id="CCTV12.cn@SD",CCTV-12 (720p)
+#EXTINF:-1 tvg-id="CCTV12.cn@SD" response-time="704ms",CCTV-12 (720p)
 http://74.91.26.218:82/live/cctv12hd.m3u8
 
-#EXTINF:-1 tvg-id="CCTV14.cn@HD",CCTV-14 (1080p)
+#EXTINF:-1 tvg-id="CCTV14.cn@HD" response-time="700ms",CCTV-14 (1080p)
 http://74.91.26.218:82/live/cctv14hd.m3u8
 
-#EXTINF:-1 tvg-id="CCTV15.cn@SD",CCTV-15 (1080p)
+#EXTINF:-1 tvg-id="CCTV15.cn@SD" response-time="645ms",CCTV-15 (1080p)
 https://xykt-fix.github.io/play/a02e/index.m3u8
 
-#EXTINF:-1 tvg-id="CCTV16.cn@HD",CCTV-16 (1080p)
+#EXTINF:-1 tvg-id="CCTV16.cn@HD" response-time="834ms",CCTV-16 (1080p)
 http://74.91.26.218:82/live/cctv16hd.m3u8
 
-#EXTINF:-1 tvg-id="CCTV17.cn@HD",CCTV-17 (1080p)
+#EXTINF:-1 tvg-id="CCTV17.cn@HD" response-time="735ms",CCTV-17 (1080p)
 http://74.91.26.218:82/live/cctv17hd.m3u8
 
-#EXTINF:-1 tvg-id="CCTV3.cn@SD",CCTV-3 (720p)
+#EXTINF:-1 tvg-id="CCTV3.cn@SD" response-time="714ms",CCTV-3 (720p)
 http://74.91.26.218:82/live/cctv3hd.m3u8
 
-#EXTINF:-1 tvg-id="CCTV4K.cn@HD",CCTV-4K (1080p)
+#EXTINF:-1 tvg-id="CCTV4K.cn@HD" response-time="1389ms",CCTV-4K (1080p)
 http://198.204.240.250:82/live/cctv4k.m3u8
 
-#EXTINF:-1 tvg-id="CCTV6.cn@HD",CCTV-6 (1080p)
+#EXTINF:-1 tvg-id="CCTV6.cn@HD" response-time="352ms",CCTV-6 (1080p)
 http://69.30.245.50/live/cctv6.m3u8
 
-#EXTINF:-1 tvg-id="CCTV8.cn@SD",CCTV-8 (720p)
+#EXTINF:-1 tvg-id="CCTV8.cn@SD" response-time="725ms",CCTV-8 (720p)
 http://74.91.26.218:82/live/cctv8hd.m3u8
 
 #GROUP:体育频道
