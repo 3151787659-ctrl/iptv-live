@@ -1,8 +1,8 @@
 #EXTM3U
-#PLAYLIST: 圆圆IPTV直播源 2026-06-22 19:59 | 含重庆联通地方台
+#PLAYLIST: 圆圆IPTV直播源 2026-06-22 19:59 | 公网HLS直播源
 #AUTHOR: WorkBuddy Auto Build | 每频道2-4源
 #DATE: 2026-06-22 19:46
-#STATS: 96 channels, 227 sources (含11个重庆地方台-RTSP)
+#STATS: 85 channels, 216 sources
 
 #GROUP:央视频道
 #EXTINF:-1 tvg-name="CCTV-1" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV1.png" group-title="央视频道" response-time="90ms" backup="no",CCTV-1
@@ -633,41 +633,6 @@ http://112.123.243.37:50085/tsfile/live/0006_1.m3u8?key=txiptv&playlive=0&authid
 
 #EXTINF:-1 tvg-name="CCTV5+" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV5.png" group-title="体育频道" response-time="184ms" backup="yes",CCTV5+ [源2]
 http://116.128.243.121:9905/tsfile/live/0016_1.m3u8?key=txiptv&playlive=1&authid=0
-
-
-#GROUP:重庆地方台
-#EXTINF:-1 tvg-name="重庆红岩文化" group-title="重庆地方台" backup="no",重庆红岩文化
-rtsp://123.147.113.84:554/04000001/01000000004000000000000000000369?AuthInfo=xxx&userid=
-
-#EXTINF:-1 tvg-name="重庆红叶" group-title="重庆地方台" backup="no",重庆红叶
-rtsp://123.147.113.84:554/04000001/01000000004000000000000000000373?AuthInfo=xxx&userid=
-
-#EXTINF:-1 tvg-name="重庆汽摩" group-title="重庆地方台" backup="no",重庆汽摩
-rtsp://123.147.113.84:554/04000001/01000000004000000000000000000371?AuthInfo=xxx&userid=
-
-#EXTINF:-1 tvg-name="重庆少儿" group-title="重庆地方台" backup="no",重庆少儿
-rtsp://123.147.113.84:554/04000001/01000000004000000000000000000374?AuthInfo=xxx&userid=
-
-#EXTINF:-1 tvg-name="重庆社会与法" group-title="重庆地方台" backup="no",重庆社会与法
-rtsp://123.147.113.84:554/04000001/01000000004000000000000000000375?AuthInfo=xxx&userid=
-
-#EXTINF:-1 tvg-name="重庆卫视" group-title="重庆地方台" backup="no",重庆卫视
-rtsp://123.147.113.84:554/04000001/01000000004000000000000000000365?AuthInfo=xxx&userid=
-
-#EXTINF:-1 tvg-name="重庆新农村" group-title="重庆地方台" backup="no",重庆新农村
-rtsp://123.147.113.84:554/04000001/01000000004000000000000000000376?AuthInfo=xxx&userid=
-
-#EXTINF:-1 tvg-name="重庆新闻" group-title="重庆地方台" backup="no",重庆新闻
-rtsp://123.147.113.84:554/04000001/01000000004000000000000000000367?AuthInfo=xxx&userid=
-
-#EXTINF:-1 tvg-name="重庆移动" group-title="重庆地方台" backup="no",重庆移动
-rtsp://123.147.113.84:554/04000001/01000000004000000000000000000384?AuthInfo=xxx&userid=
-
-#EXTINF:-1 tvg-name="重庆影视剧" group-title="重庆地方台" backup="no",重庆影视剧
-rtsp://123.147.113.84:554/04000001/01000000004000000000000000000372?AuthInfo=xxx&userid=
-
-#EXTINF:-1 tvg-name="重庆娱乐" group-title="重庆地方台" backup="no",重庆娱乐
-rtsp://123.147.113.84:554/04000001/01000000004000000000000000000370?AuthInfo=xxx&userid=
 
 #GROUP:其他频道
 #EXTINF:-1 tvg-name="凤凰中文" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/凤凰中文.png" group-title="其他频道" response-time="74ms" backup="no",凤凰中文 [源1]
