@@ -25,9 +25,6 @@ jobs:
           
       - name: 运行更新脚本
         run: node update_iptv.js
-        env:
-          # 不需要Token，actions/checkout已处理认证
-          
       - name: 提交并推送更新
         run: |
           git config user.name "github-actions[bot]"
