@@ -59,8 +59,8 @@ async function main() {
 
   const sources = [
     {
-      name: 'lalifeier/IPTV (IPv4)',
-      url: 'https://raw.githubusercontent.com/lalifeier/IPTV/main/m3u/IPTV.m3u',
+      name: 'YanG-1989 整合源 (IPv4)',
+      url: 'https://raw.githubusercontent.com/YanG-1989/m3u/main/Gather.m3u',
       priority: 1
     },
     {
@@ -102,7 +102,7 @@ async function main() {
         }
       }
     } catch (e) {
-      console.log(`  ❌ ${src.name}: ${e.message}`;
+      console.log(`  ❌ ${src.name}: ${e.message}`);
     }
   }
 
